@@ -1,0 +1,89 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #3e3e67;
+  color: white;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.navDiv {
+  background-color: #2a253b;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 10px 0;
+  width: 100vw;
+}
+
+.filter {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px 0;
+  gap: 20px;
+  max-width: auto;
+  margin: 0 auto;
+}
+
+.category{
+  border: 2px solid white;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1200px;
+  padding: 0 40px;
+  margin: 20px auto 40px;
+  justify-content: center;
+}
+
+.card {
+  background-color: #2a253b;
+  max-width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.cardImage {
+  position: relative;
+}
+
+.reactIcon {
+  position: absolute;
+  bottom: -15px;
+  background-color: white;
+  padding: 6px;
+  left: 250px;
+  border-radius: 50%;
+}
+
+.cardTitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.cardDesc {
+  text-align: justify;
+}
+
+.cardDetails{
+  padding: 20px 15px;
+}
+
+.active{
+  border: 2px solid white;
+}
+
